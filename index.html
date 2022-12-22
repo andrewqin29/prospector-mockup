@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Prospector</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/itc-franklin-gothic-std" rel="stylesheet">
+
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+   
+</head>
+<body>
+    <header>
+        <div class="header flex">
+            <!--LOGO AND DATE-->
+            <div id="logoanddate-wrapper" class="flex">
+                <div id="logo">
+                    <img id="logo-icon" src="resources/prospectorlogo.png">
+                </div>
+                <div id="date-container" class="flex">
+                    <h3 id="date">Monday, January 21, 2023</h3>
+                    <p id="goodmorning">Good morning!</p>
+                    <div id="weather" class="flex">
+                        <i class="bi bi-brightness-alt-high weather-icon"></i>
+                        <p id="temp">67°</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--SOCIALS-->
+            <div id="teamandsocial-container" class="flex verticalflex">
+                <div id="socials-container" class="flex">
+                    <i class="bi bi-instagram social-icon pointer"></i>
+                    <i class="bi bi-youtube social-icon pointer"></i>
+                    <i class="bi bi-spotify social-icon pointer"></i>
+                    <i class="bi bi-twitter social-icon pointer"></i>
+                </div>
+                <div id="theteam-container" class="flex">
+                    <div id="theteam" class="pointer">
+                        Contact
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div id="title-box" class="flex">
+            <div id="title-container" class="flex">
+                <h1 id="title">THE PROSPECTOR</h1>
+                <p id="newsmagazine" style="margin: 0 0 0 0;">CUPERTINO HIGH SCHOOL'S STUDENT-RUN NEWSMAGAZINE </p>
+            </div>
+        </div>
+        <div id="bar" class="flex nav-bar">
+            <p class="pointer">NEWS</p>
+            <p class="pointer">OPINION</p>
+            <p class="pointer">POLITICS & ACTIVISM</p>
+            <p class="pointer">ARTS & LEISURE</p>
+            <p class="pointer">TECH</p>
+            <p class="pointer">MORE</p>
+        </div>
+    </nav>
+    
+    <section id="article-otd" class="flex">
+        <div id="article-otd-img">
+            <img id="article-otd-img"src="resources/bluelock2.jpg">
+        </div>
+        <div id="article-otd-sidebar" class="flex verticalflex">
+            <div id="article-otd-title">
+                <strong id="otd-title">Kevin's Honest Reviews: Blue Lock</strong>
+            </div>
+            <div id="article-otd-by" class="flex">
+               <p id="by">By Kevin Jia <span style="color:orange">/</span> December 30th, 2022</p>
+               <div id="article-otd-authorimg">
+                    <img id="authorimg" src="resources/kevin.png">
+               </div>
+            </div>
+            <div id="section-tags" class="flex">
+                <p id="tag1">Sports</p>
+                <p id="tag2">Arts & Leisure</p>
+                <div id="bookmark" class="flex">
+                    <i style="font-size:2vw;"class="bi bi-bookmark-dash"></i>
+                </div>
+            </div>
+            <div id="article-otd-desc">
+                <p id="article-desc-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus cum nisi esse excepturi quae repudiandae numquam!
+                At repellat eaque impedit cumque asperiores? Voluptas ea hic eveniet leniti aspernatur 
+                </p>
+            </div>
+            <div id="article-otd-read-more">
+                <p id="read-more-text">Read more</p>
+            </div>
+        </div>
+    </section>
+    <section id="other-articles">
+        <div id="trending-header-box" class="flex"><p id="trending-header" class="highlight">Trending</p></div>
+        <div id="trending-articles" class="flex">
+            <div id="trending-item-1" class="trending-item pointer">
+                <div>
+                    <img class="trending-item-img" src="resources/chainsawman4.jpg">
+                </div>
+                <div class="trending-item-desc flex verticalflex">
+                    <div class="trending-item-title">
+                        10 Reasons why Chainsaw Man is Kevin's Anime of the year!
+                    </div>
+                    <div class="trending-item-tag" style="background-color:#D7A1F9;">Opinions</div>
+                    <div class="trending-item-by">By Kevin Jia / December 26, 2022</div>
+                </div>
+            </div>
+            <div id="trending-item-2" class="trending-item pointer">
+                <div>
+                    <img class="trending-item-img" src="resources/slug.png">
+                </div>
+                <div class="trending-item-desc flex verticalflex">
+                    <div class="trending-item-title">
+                        Why is Jolie scared of banana slugs? A deep dive.
+                    </div>
+                    <div class="trending-item-tag" style="background-color:#8AFF8A;">News</div>
+                    <div class="trending-item-by">By Evan Lu / December 17, 2022</div>
+                </div>
+            </div>
+            <div id="trending-item-3" class="trending-item pointer">
+                <div>
+                    <img class="trending-item-img" src="resources/trending-kevin.jpg">
+                </div>
+                <div class="trending-item-desc flex verticalflex">
+                    <div class="trending-item-title">
+                        5 signs your friend might be a weeb. And when to let go...
+                    </div>
+                    <div class="trending-item-tag" style="background-color:#FFFF8A;">Feature</div>
+                    <div class="trending-item-by">By Andrew Qin / December 12, 2022</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="categories-latest" class="flex">
+        <div id="categories" class="flex verticalflex">
+            <div id="categories-polact" class="category flex verticalflex">
+                <div class="category-title">Politics and Activism</div>
+                <div class="category-box flex">
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="resources/online-activism.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">ONLINE</div>
+                                <div class="category-item-title underline">The Ill Motives Behind Online Activism</div>
+                            </div>
+                            <div class="category-item-by">By Taruna Anil</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="https://chsprospector.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-14-at-2.53.36-PM-596x900.png">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">EDUCATION</div>
+                                <div class="category-item-title underline">FUHSD's SRO Program</div>
+                            </div>
+                            <div class="category-item-by">By Taruna Anil and Vishal Shenoy</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="resources/lgbtq.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">SOCIETY</div>
+                                <div class="category-item-title underline">LQBTQ Education</div>
+                            </div>
+                            <div class="category-item-by">By Rachel Park and Ankita Acharya</div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="categories-news" class="category flex verticalflex">
+                <div class="category-title">News</div>
+                <div class="category-box flex">
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="resources/via.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">CITY RELATED</div>
+                                <div class="category-item-title underline">Cupertino Via Shuttle Program</div>
+                            </div>
+                            <div class="category-item-by">By Andrew Qin</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="resources/housing-crisis.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">EDUCATION</div>
+                                <div class="category-item-title underline">Milpitas Teacher Housing Crisis</div>
+                            </div>
+                            <div class="category-item-by">By Sania Mehta and Katie Kim</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="resources/single-use.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">ENVIRONMENT</div>
+                                <div class="category-item-title underline">Cupertino Single Use Plastics</div>
+                            </div>
+                            <div class="category-item-by">By Katelyn Chu</div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="categories-opinions" class="category flex verticalflex">
+                <div class="category-title">Opinion</div>
+                <div class="category-box flex">
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="https://chsprospector.com/wp-content/uploads/2022/10/deepwork--900x604.png">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">SOCIETY</div>
+                                <div class="category-item-title underline">Deep Work</div>
+                            </div>
+                            <div class="category-item-by">By Natalie Chen</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="https://chsprospector.com/wp-content/uploads/2022/04/50970616926_56d3c7a29c_o-900x600.jpg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">SCHOOL</div>
+                                <div class="category-item-title underline">New Bell Schedule: Student Perspectives</div>
+                            </div>
+                            <div class="category-item-by">By Anand Ashar and Norman Chow</div>
+                        </div>
+                    </div>
+                    <div class="category-item grow flex verticalflex">
+                        <img class="category-item-img" src="https://chsprospector.com/wp-content/uploads/2022/01/from-the-orpheum-theater-in-los-angeles-walt-disney-news-photo-1602087624-900x452.jpeg">
+                        <div class="category-item-desc flex verticalflex">
+                            <div>
+                                <div class="category-item-tag">ENTERTAINMENT</div>
+                                <div class="category-item-title underline">Problematic Christmas Songs</div>
+                            </div>
+                            <div class="category-item-by">By Sania Mehta</div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="more" class="flex"><div>more ></div></div>
+        </div>
+        <div id="latest" class="flex verticalflex">
+            <div id="latest-title">Latest</div>
+            <div class="latest-item flex verticalflex">
+                <div class="latest-item-date">NOV. 8</div>
+                <div class="latest-item-title underline">
+                    Breaking Down the FUHSD Board Rep Elections
+                </div>
+            </div>
+            <div class="latest-item flex verticalflex">
+                <div class="latest-item-date">APRIL 23</div>
+                <div class="latest-item-title underline">
+                    SAHA's Effect on Cultural Appreciation
+                </div>
+            </div>
+            <div class="latest-item flex verticalflex">
+                <div class="latest-item-date">APRIL 29</div>
+                <div class="latest-item-title underline">
+                    Science and Society
+                </div>
+            </div>
+            <div class="latest-item flex verticalflex">
+                <div class="latest-item-date">NOV. 9</div>
+                <div class="latest-item-title underline">
+                    The Ethicality of Animal Dissections
+                </div>
+            </div>
+            <div class="latest-item flex verticalflex">
+                <div class="latest-item-date">NOV. 24</div>
+                <div class="latest-item-title underline">
+                    Mrs. Merrick Spotlight
+                </div>
+            </div>
+            <div class="latest-gap"></div>
+            <iframe id="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4c3ctXNmzsPA0etZWEseep?utm_source=generator&theme=0" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class="latest-gap"></div>
+            <div id="ad" class="flex"><div>ad?</div></div>
+            <div class="latest-gap"></div>
+            <div id="latest-scores-title-container" class="flex verticalflex">
+                <div id="latest-scores-title">Sports</div>
+                <div id="latest-scores-update">last updated 3d ago</div>
+                <div id="latest-scores-recent">recent games</div>
+            </div>
+            <div id="latest-scores" class="flex verticalflex">
+                <div class="latest-score-item flex">
+                    <div class="flex">
+                        <div class="latest-score-W-L score-item"><span style="color:green;">W</span></div>
+                        <div class="latest-score-score score-item">1-0</div>
+                    </div>
+                    <div class="latest-score-report score-item">V. Boys Soccer v. MVHS</div>
+                </div>
+                <div class="latest-score-item flex">
+                    <div class="flex">
+                        <div class="latest-score-W-L score-item"><span style="color:green;">W</span></div>
+                        <div class="latest-score-score score-item">2-1</div>
+                    </div>
+                    <div class="latest-score-report score-item">JV Boys Soccer v. MVHS</div>
+                </div>
+                <div class="latest-score-item flex">
+                    <div class="flex">
+                        <div class="latest-score-W-L score-item"><span style="color:red;">L</span></div>
+                        <div class="latest-score-score score-item">34-52</div>
+                    </div>
+                    <div class="latest-score-report score-item">V. Boys Basketball v. LAHS</div>
+                </div>
+                <div class="latest-score-item flex">
+                    <div class="flex">
+                        <div class="latest-score-W-L score-item"><span style="color:green;">W</span></div>
+                        <div class="latest-score-score score-item">4-0</div>
+                    </div>
+                    <div class="latest-score-report score-item">Boys Chess / Andrew v. Kevin</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="youtube-container" class="flex verticalflex">
+        <div id="youtube-title-box" class="flex">
+            <div id="youtube-title" class="highlight">
+                Check out The Prospector on YouTube
+            </div>
+        </div>
+        <div id="youtube-box" class="flex">
+            <iframe id="youtube" src="https://www.youtube.com/embed/YokgnG_UEmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="youtube-buttons" class="flex">
+            <div class="yt-button">Subscribe</div>
+            <div class="yt-button">All Videos</div>
+        </div>
+    </div>
+    <div id="print-issues-box" class="flex verticalflex">
+        <div id="print-issues-title" class="highlight">Print Issues</div>
+        <div id="print-desc">Issue 5 prints are currently in circulation around the school. Ask your teacher to find a copy!</div>
+        <div id="print-time">
+            <span id="print-timeline">Issue release timeline: </span><br> 
+            <ul>
+                <li>November 7, 2022</li>
+                <li>January 23, 2023</li>
+                <li>February 25, 2023</li>
+                <li>March 20, 2023</li>
+                <li>April 28, 2023</li>
+            </ul>
+        </div>
+        <div id="prints">
+            <div id="cardone" class="card flex">
+                issue 1
+            </div>
+            <div id="cardtwo" class="card flex">
+                issue 2
+            </div>
+            <div id="cardthree" class="card flex">
+                issue 3
+            </div>
+            <div id="cardfour" class="card flex">
+                issue 4
+            </div>
+            <div id="cardfive" class="card flex">
+                issue 5
+            </div>
+        </div>
+    </div>
+    <div id="typewriter" class="flex">
+        <p id="iam">The Prospector is <br>
+            <span style="color:black; font-weight: bold;" id="changing-iam">currently working on Issue 6...</span>
+        </p>
+    </div>
+    <footer id="footer" class="flex">
+        <div id="footer-col-1" class="flex verticalflex">
+            Cupertino High School<br>
+            10100 Finch Ave<br>
+            Cupertino CA<br>
+            95014
+            <div id="contact-footer">Contact</div>
+        </div>
+        <div id="footer-col-2" class="flex verticalflex">
+            <div id="newsletter-footer">Subscribe to our newsletter</div>
+            <div id="socials-footer-box" class="flex">
+                <div class="socials-footer-item">TW</div>
+                <div class="socials-footer-item">IG</div>
+                <div class="socials-footer-item">YT</div>
+                <div class="socials-footer-item">FB</div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
